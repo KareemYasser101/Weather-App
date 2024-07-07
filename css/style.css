@@ -1,0 +1,255 @@
+/* nav start */
+nav {
+ background-color: #1E202B;
+}
+.navbar-nav .nav-link {
+    margin-right: 40px;
+    padding: 0px 20px 0px 20px !important;
+    text-align: center;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    transition: all 0.5s;
+}
+.navbar-nav .nav-link:hover {
+    border-color: #009AD8;
+    color: #0999D8 !important;
+}
+
+.navbar-nav .active {
+    border: 2px solid #009AD8;
+    border-radius: 50px;
+    color: #0999D8 !important;
+}
+/* nav end */
+
+/* search start */
+.search {
+    min-height: 350px;
+    background-image: url("../imgs/banner.png");
+}
+.search form {
+    margin-top: 80px;
+}
+.search #searchtxt {
+    color: white;
+    background-color: #1E202B;
+    border: none;
+    width: 100%;
+    padding: 15px 20px 15px 20px;
+    border-radius: 30px;
+    position: relative;
+}
+#searchtxt:focus {
+    outline: none;
+}
+
+#submit {
+    border: none;
+    background: #009ad8;
+    color: white;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+    border-radius: 30px;
+}
+#currentLocBtn {
+    color: white;
+    background-color: #009AD8;
+    border: none;
+    padding: 10px 15px 10px 15px;
+    border-radius: 30px;
+    transition: all .5s;
+}
+#currentLocBtn:hover {
+    background-color: #1E202B;
+    color: #009AD8;
+}
+/* search end */
+
+/* Weather start */
+.weather {
+    min-height: 300px;
+    background-color: #1E202B;
+}
+
+.weather .container {
+    border-radius: 10px;
+    position: relative;
+    top: -100px;
+}
+
+
+/* today */
+.forecast-table .today .forecast-header {
+    background-color: #2D303D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.forecast-table .today .forecast-body {
+    background-color: #323544;
+}
+.forecast-body {
+    height: 300px;
+}
+
+.forecast-table .today .forecast-header .day, .date {
+    font-family: sans-serif;
+    color: #bfc1c8;
+    font-weight: 400;
+    line-height: 21px;
+    font-size: 14px;
+}
+.forecast-table .today .forecast-body .location {
+    font-family: sans-serif;
+    color: #bfc1c8;
+    font-weight: 400;
+    line-height: 27px;
+    font-size: 18px;
+}
+.forecast-table .today .forecast-body .degree {
+    font-family: sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 135px;
+    font-size: 90px;
+}
+.forecast-table .today .forecast-body .sky {
+    font-family: sans-serif;
+    color: #009ad8;
+    font-weight: 300;
+    line-height: 21px;
+    font-size: 14px;
+}
+
+/* next */
+.forecast-table .next .forecast-header {
+    background-color: #222530;
+}
+.forecast-table .next .forecast-body {
+    background-color: #262936;
+}
+.forecast-table .next .forecast-header .day {
+    font-family: sans-serif;
+    color: #bfc1c8;
+    font-weight: 400;
+    line-height: 21px;
+    font-size: 14px;
+}
+.forecast-table .next .forecast-body .degree {
+    font-family: sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 36px;
+    font-size: 24px;
+}
+.forecast-table .next .forecast-body .min-degree {
+    font-family: sans-serif;
+    color: #bfc1c8;
+    font-weight: 300;
+    line-height: 24px;
+    font-size: 16px;
+}
+.forecast-table .next .forecast-body .sky {
+    font-family: sans-serif;
+    color: #009ad8;
+    font-weight: 300;
+    line-height: 21px;
+    font-size: 14px;
+}
+
+/* last */
+.forecast-table .last .forecast-header {
+    background-color: #2D303D;
+}
+.forecast-table .last .forecast-body {
+    background-color: #323544;
+}
+.forecast-table .last .forecast-header .day {
+    font-family: sans-serif;
+    color: #bfc1c8;
+    font-weight: 400;
+    line-height: 21px;
+    font-size: 14px;
+}
+.forecast-table .last .forecast-body .degree {
+    font-family: sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 36px;
+    font-size: 24px;
+}
+.forecast-table .last .forecast-body .min-degree {
+    font-family: sans-serif;
+    color: #bfc1c8;
+    font-weight: 300;
+    line-height: 24px;
+    font-size: 16px;
+}
+.forecast-table .last .forecast-body .sky {
+    font-family: sans-serif;
+    color: #009ad8;
+    font-weight: 300;
+    line-height: 21px;
+    font-size: 14px;
+}
+/* Weather end */
+
+/* contact start */
+.contact {
+    min-height: 220px;
+    background-color: #262936;
+}
+#emailField {
+    color: white;
+    background-color: #1E202B;
+    border: none;
+    width: 100%;
+    padding: 15px 20px 15px 20px;
+    border-radius: 30px;
+    position: relative;
+}
+#emailField:focus {
+    outline: none;
+}
+
+#emailBtn {
+    border: none;
+    background: #009ad8;
+    color: white;
+    position: absolute;
+    top: 5px;
+    right: 17px;
+    bottom: 5px;
+    padding: 0 20px;
+    border-radius: 30px;
+}
+
+.contact .social .icon {
+    background-color: #1E202B;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+    cursor: pointer;
+}
+.contact .social .icon:hover {
+    background-color: #009AD8;
+    color: white;
+}
+.contact .social .icon:hover i {
+    color: white;
+}
+.icon i {
+    color: #009AD8;
+    transition: all .5s;
+}
+.contact p {
+    color: #9b9b9b;
+}
+/* contact end */
