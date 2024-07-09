@@ -11,17 +11,20 @@
 <body>
     <!-- nav start -->
     <nav class="navbar-dark navbar-expand-lg p-5">
-        <div class="container d-flex align-items-center">
-          <a class="navbar-brand d-flex align-items-center" href="#">
+        <div class="container d-flex justify-content-between align-items-center">
+          <a class="d-flex align-items-center navbar-brand" href="#">
             <img class="" src="imgs/logo@2x.png" width="65px" alt="Weather logo">
             <div class="logo-txt ms-2">
                 <span class="fw-bold">Weather</span><br>
                 <span class="fw-light fs-6">tagline goes here</span>
             </div>
           </a>
-          <div class="ms-auto" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link active" an hhria-current="page" href="#">Home</a>
               <a class="nav-link" href="#">News</a>
               <a class="nav-link" href="#">Live cameras</a>
               <a class="nav-link" href="#">Photos</a>
@@ -104,7 +107,7 @@
                     <input type="button" value="Subscribe" id="emailBtn">
                 </div>
                 <div class="col-md-1"></div>
-                <div class="social mt-sm-2 d-flex col-md-4">
+                <div class="social mt-2 d-flex col-md-4">
                     <div class="icon me-3 fs-4">
                         <i class="fa-brands fa-facebook-f"></i>
                     </div>
@@ -123,6 +126,7 @@
         </div>
       </div>
       <!-- contact end -->
+    <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
